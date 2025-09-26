@@ -1,0 +1,15 @@
+2025-09-13 09:15:23,101 - INFO - Starting application...
+2025-09-13 09:15:23,542 - DEBUG - Configuration loaded successfully
+2025-09-13 09:15:24,002 - INFO - User 'admin' logged in from 192.168.1.10
+2025-09-13 09:15:24,503 - WARNING - Disk space on /var/log is running low (15% remaining)
+2025-09-13 09:15:25,010 - ERROR - Failed to connect to database: timeout after 30s
+2025-09-13 09:15:25,011 - ERROR - Traceback (most recent call last):
+2025-09-13 09:15:25,011 - ERROR -   File "db_connector.py", line 42, in connect
+2025-09-13 09:15:25,011 - ERROR -     connection = db.connect()
+2025-09-13 09:15:25,011 - ERROR - TimeoutError: Connection attempt timed out
+2025-09-13 09:15:26,220 - INFO - Retrying database connection...
+2025-09-13 09:15:27,785 - INFO - Database connection established
+2025-09-13 09:15:28,050 - INFO - Processing request ID=12345
+2025-09-13 09:15:28,400 - ERROR - Failed to process request ID=12345: Invalid input data
+2025-09-13 09:15:28,401 - DEBUG - Request payload: {'username': '', 'email': 'invalid-email'}
+2025-09-13 09:15:29,120 - INFO - Application shutdown initiated
